@@ -93,11 +93,7 @@ class List {
     set_size(0);
   }
 
-<<<<<<< HEAD:src/Container/list.h
-  void set_head_value(T const value) {
-=======
   void set_head_value(const T &value) {
->>>>>>> d2c1840e7a9eb187de186938290655fa8e4eca47:src/lib/s21_list.h
     head_->value = value;
     Node* endStub = new Node;
     endStub->next = head_;
@@ -106,11 +102,7 @@ class List {
     head_->prev = endStub;
   }
 
-<<<<<<< HEAD:src/Container/list.h
-  void add_element(T const value) {
-=======
   void add_element(const T &value) {
->>>>>>> d2c1840e7a9eb187de186938290655fa8e4eca47:src/lib/s21_list.h
     if (0 == size()) {
       set_head_value(value);
     } else {

@@ -4,12 +4,7 @@
 #include <list>
 #include <string>
 
-<<<<<<< HEAD:src/Container/test_list/test.cpp
-#include "../list.h"
-#include "gtest/gtest.h"
-=======
 #include "../lib/s21_containers.h"
->>>>>>> d2c1840e7a9eb187de186938290655fa8e4eca47:src/test/list_test.cpp
 
 TEST(str, case_1) {
   std::list<std::string> std_list;
